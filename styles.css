@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #183b56;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: #577592;
+    line-height: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    box-shadow: 0 0 4px #bbd0e2;
+}
+
+.nav-link:hover {
+    color: #577592 !important;
+}
+
+.nav-item.active .nav-link {
+    color: #2294ed !important;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
